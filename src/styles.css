@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  opacity: 30px;
+}
+form {
+  text-align: center;
+  padding: 20px;
+}
+.place {
+  font-size: 40px;
+  margin: 20px 20px;
+}
+.high {
+  font-size: 30px;
+  margin: 10px 20px;
+}
+.current-temp {
+  font-size: 80px;
+  margin: 20px 20px 20px 100px;
+}
+.low {
+  font-size: 20px;
+}
+.low-temp {
+  font-size: 20px;
+}
+.forecast {
+  font-size: 40px;
+  margin: 20px 20px;
+}
+.sun-today {
+  width: 200px;
+}
+.sunny {
+  display: block;
+  margin: 0 auto;
+}
+.partly-cloudy {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+}
+.precipitation {
+  font-size: 20px;
+  position: relative;
+  top: -40px;
+  right: -20px;
+}
+.humidity {
+  font-size: 20px;
+  position: relative;
+  right: 130px;
+}
+.wind {
+  font-size: 20px;
+  position: relative;
+  right: -260px;
+  top: -70px;
+}
+.row {
+  padding: 0;
+}
+.col {
+  padding: 0;
+}
+.day {
+  text-align: center;
+  font-size: 18px;
+}
+.temp {
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
